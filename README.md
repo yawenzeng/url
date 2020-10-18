@@ -7,7 +7,7 @@ We use the framework pytorch.
 * python version: '3.5'
 
 ## Example to run the codes
-Run AVMR：
+Run URL：
 ```
 python main.py
 ```
