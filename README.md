@@ -1,26 +1,16 @@
 # Moment is Important: Language-Based Video Moment Retrieval via Adversarial Learning (URL)
 
-# Environment Settings
-We use the framework pytorch.
+This is our implementation for the paper:
 
-* pytorch version: '1.2.0'
-* python version: '3.5'
+Yawen Zeng, Da Cao, Shaofei Lu, Hanling Zhang, Jiao Xu, Zheng Qin. 2021. Moment is Important: Language-Based Video Moment Retrieval via Adversarial Learning. The ACM Transactions on Multimedia Computing, Communications and Application (TOMM).
 
-## Example to run the codes
-Run URL：
-```
-python main.py
-```
 
-## Dataset
-We provide two processed datasets: Charades-STA && TACoS
-The strategy of multi-scale sliding windows is utilized to segment each video with the size of [64, 128, 256, 512] frames with 80% overlap and we randomly selected 80% and 20% of them for training and testing, respectively.
+### URL
+The code of URL is being reorganized...
 
-All features are saved in ./feature_all_train, ./feature_all_test. 
-* These two processed features are available for downloading here: https://drive.google.com/open?id=1-AMToMuTlPRY1C2n0ZoyKrwBsVPehbFK
-* The original videos and their corresponding caption annotations/querys: https://github.com/jiyanggao/TALL and http://www.coli.uni-saarland.de/projects/smile/tacos
+Coming Soon！
 
-## Workspace
-/workplaceTest and /workplaceTrain that processes videos in advance as a runtime workspace.
+### AVMR
+And the preliminary version of this work, AVMR, “Adversarial Video Moment Retrieval by Jointly Modeling Ranking and Localization”, has been published on ACM MM 2020 as a 9-page oral paper. 
 
-#
+The code of AVMR has been released on https://github.com/yawenzeng/AVMR
